@@ -3,7 +3,15 @@ A collection of filtering Algorithms for LiDAR data
 
 This repository contains 3 filtering algorithms - 1] Ground Filtering, 2] Building Filtering and 3] Vegetation Filtering 
 
+
+Basic Functions.py contains functions to read a PLY File, convert it into a dataframe and visualize it. 
+
 Ground Filtering.py makes use of the CSF algorithm to remove ground points. 
+
+Building Filtering.py detects rectangular patches and removes them from the file. 
+
+
+
 
 This code is compatible with (and based on) the DALES Open Source LiDAR Dataset. 
 
