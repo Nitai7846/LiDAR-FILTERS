@@ -23,9 +23,4 @@ def ground_filtering(df):
     print("Post filtering the number of point's are : ", len(df))
     return df 
 
-ply_file = "ply file path"
-df = convert_ply_to_df(ply_file)
-plot(df)
 
-df_ground_removed = ground_filtering(df)
-plot(df_ground_removed)
