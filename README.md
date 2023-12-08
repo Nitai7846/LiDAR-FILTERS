@@ -1,7 +1,7 @@
 # LiDAR-FILTERS
-A collection of filtering Algorithms for LiDAR data 
+A collection of filtering Algorithms for LiDAR data
 
-This repository contains 3 filtering algorithms - 1] Ground Filtering, 2] Building Filtering and 3] Vegetation Filtering 
+This repository contains 4 filtering algorithms - 1] Ground Filtering, 2] Building Filtering and 3] Vegetation Filtering 4] Hough for LiDAR
 
 
 Basic Functions.py contains functions to read a PLY File, convert it into a dataframe and visualize it. 
@@ -15,6 +15,8 @@ Building Filtering.py detects rectangular patches and removes them from the file
 
 Vegetation Filtering.py detects high density grids and removes them from the file. 
 
+
+Hough for LiDAR.py make use of the Hough Transform Algorithm and integrates it with LiDAR Data to help with powerline detection. 
 
 This code is compatible with (and based on) the DALES Open Source LiDAR Dataset. 
 
